@@ -1,0 +1,119 @@
+body {
+  background-image: linear-gradient(#000000f5, #000000e0), url("img/bg1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+  .app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    user-select: none;
+
+    .box__principal {
+      background: linear-gradient(
+      180deg,
+        rgba(255, 255, 255, 0.185) 0%,
+        rgba(255, 255, 255, 0.06) 100%
+      );
+      flex-wrap: wrap;
+      flex-direction: column;
+      border-radius: 10px;
+      height: 700px;
+      width: 600px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff;
+      .infos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 30px;
+        text-align: center;
+        img {
+          max-width: 220px;
+          
+          &:active{
+            transform: scale(1.1);
+          }
+        }
+        h1 {
+          margin-top: 20px;
+          font-weight: 500;
+          font-size: 38px;
+          letter-spacing: 1px;
+          text-align: center;
+        }
+        span {
+          font-weight: 300;
+          font-size: 21.3px;
+          text-align: center;
+          letter-spacing: 1px;
+        }
+      }
+    }
+    .contacts {
+      ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        list-style: none;
+        margin: 20px;
+        padding: 0px 90px 0px 90px;
+      }
+
+      li {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        font-size: 14px;
+
+        a{
+          text-decoration: none;
+          color: #fff;
+        }
+
+        img {
+          max-width: 30px;
+        }
+
+        span {
+          font-weight: 300;
+          margin: 5px;
+        }
+      }
+
+      .text {
+        margin-left: 10px;
+      }
+    }
+
+    .tecnology {
+      display: flex;
+      margin: 15px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      span{
+        font-weight: 500;
+        font-size: 20px;
+      }
+      .skills {
+        margin: 15px;
+        display: flex;
+        img {
+          width: 40px;
+          margin: 5px;
+          
+          &:active{
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+}
