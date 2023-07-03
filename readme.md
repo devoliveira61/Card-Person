@@ -10,4 +10,4 @@
 </ul>
 
 <h2>Acesso ao Projeto</h2>
-<p>Você pode acessar o Card através do seguinte link: <a href="http://chat-privacy.surge.sh">Acesse o Card</a></p>
+<p>Você pode acessar o Card através do seguinte link: <a href="http://card-devoliveira61.surge.sh">Acesse o Card</a></p>
